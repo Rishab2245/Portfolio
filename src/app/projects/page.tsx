@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { ExternalLink, Github, Code } from 'lucide-react';
 import projectsData from '@/data/projects.json';
@@ -8,7 +9,7 @@ export default function ProjectsPage() {
       <div className="mb-8">
         <h1 className="text-4xl font-bold al-folio-heading mb-4">Projects</h1>
         <p className="text-lg al-folio-text">
-          A collection of projects I&apos;ve worked on, showcasing my skills in full-stack development, 
+          A collection of projects I&apos;ve worked on, showcasing my skills in full-stack development,
           UI/UX design, and modern web technologies.
         </p>
       </div>
@@ -16,9 +17,22 @@ export default function ProjectsPage() {
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {projectsData.projects.map((project) => (
           <div key={project.id} className="al-folio-card p-6 hover:shadow-lg transition-all duration-300 group">
-            {/* Project Image Placeholder */}
-            <div className="w-full h-48 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900 rounded-lg mb-4 flex items-center justify-center">
-              <Code className="h-12 w-12 text-blue-600 dark:text-blue-400" />
+            {/* Project Image */}
+            <div className="relative w-full h-48 mb-4 rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800">
+              {project.image ? (
+                <Image
+                  src={project.image}
+                  alt={`${project.title} screenshot`}
+                  layout="fill"
+                  objectFit="cover"
+                  objectPosition="center"
+                  className=""
+                />
+              ) : (
+                <div className="flex h-full items-center justify-center">
+                  <Code className="h-12 w-12 text-blue-600 dark:text-blue-400" />
+                </div>
+              )}
             </div>
 
             {/* Project Title */}
@@ -106,4 +120,3 @@ export default function ProjectsPage() {
     </div>
   );
 }
-

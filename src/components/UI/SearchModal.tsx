@@ -45,7 +45,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
     
     // External Links
     { id: 'github', title: 'GitHub Profile', description: 'View my GitHub repositories', url: 'https://github.com/rishab2245', category: 'External', icon: ExternalLink },
-    { id: 'linkedin', title: 'LinkedIn Profile', description: 'Connect with me on LinkedIn', url: 'https://linkedin.com/in/Rishab-Chaudhary', category: 'External', icon: ExternalLink },
+    { id: 'linkedin', title: 'LinkedIn Profile', description: 'Connect with me on LinkedIn', url: 'https://www.linkedin.com/in/rishab-chaudhary-1622b8253', category: 'External', icon: ExternalLink },
   ];
 
   const filteredItems = searchItems.filter(item =>

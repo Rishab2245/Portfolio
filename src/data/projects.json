@@ -9,9 +9,9 @@
         "Developed a full-stack platform showcasing Valorant skins and accounts",
         "Implemented an admin dashboard allowing secure access for administrators to log in and update site content"
       ],
-      "github": "https://github.com/rishab2245/valohub",
-      "demo": "",
-      "image": "/images/projects/valohub.jpg"
+      "github": "https://github.com/rishab2245/Valorent_Gallery",
+      "demo": "https://valorent-gallery.vercel.app/",
+      "image": "/images/project_thumbnale/valohub.jpg"
     },
     {
       "id": "netflix-gpt",
@@ -23,8 +23,8 @@
         "Enabled OpenAI API key input for users, empowering them to input unique prompts and receive tailored movie recommendations"
       ],
       "github": "https://github.com/rishab2245/netflix-gpt",
-      "demo": "",
-      "image": "/images/projects/netflix-gpt.jpg"
+      "demo": "https://netflix-gpt-rho-lilac.vercel.app/",
+      "image": "/images/project_thumbnale/netflix-gpt.jpg"
     },
     {
       "id": "gitfinder",
@@ -36,9 +36,112 @@
         "Enhanced proficiency in React and developed strong skills in DOM manipulation and API integration"
       ],
       "github": "https://github.com/rishab2245/gitfinder",
-      "demo": "",
-      "image": "/images/projects/gitfinder.jpg"
+      "demo": "https://git-user-finder-xi.vercel.app/mojombo",
+      "image": "/images/project_thumbnale/gitfinder.jpg"
+    },
+    {
+      "id": "movieapp",
+      "title": "MovieApp",
+      "description": "A web app that fetches and displays movies using an API. Users can explore and search movies in a responsive UI.",
+      "technologies": ["React", "API Integration", "CSS", "HTML"],
+      "features": [
+        "Integrated third-party movie API",
+        "Dynamic movie search and listing interface"
+      ],
+      "github": "https://github.com/rishab2245/movieapp",
+      "demo": "https://movieapp-chi-seven.vercel.app/",
+      "image": "/images/project_thumbnale/movieapp.jpg"
+    },
+    {
+      "id": "obys-clone",
+      "title": "Obys Clone",
+      "description": "A pixel-perfect clone of the Obys Agency website using modern web design principles.",
+      "technologies": ["HTML", "Tailwind CSS", "JavaScript", "GSAP"],
+      "features": [
+        "Smooth animations using GSAP",
+        "Mobile responsive and aesthetically matched to the original site"
+      ],
+      "github": "https://github.com/rishab2245/obys-clone",
+      "demo": "https://obys-clone-red.vercel.app/",
+      "image": "/images/project_thumbnale/obys.clone.jpg"
+    },
+    {
+      "id": "refokus-clone",
+      "title": "Refokus Clone",
+      "description": "A visually stunning clone of Refokus agency’s website built with advanced animations and smooth transitions.",
+      "technologies": ["React", "Framer Motion", "Tailwind CSS"],
+      "features": [
+        "Custom scroll animations",
+        "Highly aesthetic layout and interactive UI"
+      ],
+      "github": "https://github.com/rishab2245/refokus-clone",
+      "demo": "https://refokus-clone-sandy.vercel.app/",
+      "image": "/images/project_thumbnale/Refokus-clone.jpg"
+    },
+    {
+      "id": "calendar-app",
+      "title": "Simple Calendar",
+      "description": "A basic calendar application allowing users to add, remove, and view events with intuitive date navigation.",
+      "technologies": ["nextjs", "JavaScript", "CSS"],
+      "features": [
+        "Event creation, editing and deletion",
+        "Monthly, weekly and daily views"
+      ],
+      "github": "https://github.com/rishab2245/simple-calender",
+      "demo": "https://simple-calender.vercel.app/",
+      "image": "/images/project_thumbnale/Simple_calender.jpg"
+    },
+    {
+      "id": "chatapp",
+      "title": "ChatApp",
+      "description": "A real-time chat application with WebSocket implementation using Socket.IO, featuring authentication and private messaging.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "features": [
+        "implemented file upload feature in chat with emoji support",
+        "added smooth chating flow with clean user interface"
+      ],
+      "github": "https://github.com/rishab2245/chatapp",
+      "demo": "https://chatapp-one-chi.vercel.app/",
+      "image": "/images/project_thumbnale/chatapp.jpg"
+    },
+    {
+      "id": "chatapp2.0",
+      "title": "ChatApp 2.0",
+      "description": "An upgraded chat platform with group chat support, better UI/UX, and notification features.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "features": [
+        "Implemented predefined responses for quick replies",
+        "integrated the sent,delivered,read feature"
+      ],
+      "github": "https://github.com/rishab2245/chatapp2.0",
+      "demo": "https://chat-application-pi-red.vercel.app/",
+      "image": "/images/project_thumbnale/chatapp2.0.jpg"
+    },
+    {
+      "id": "coupon-frontend",
+      "title": "Coupon Frontend",
+      "description": "Frontend interface for a coupon management system where users can redeem and browse coupon codes.",
+      "technologies": ["React", "JavaScript", "HTML", "CSS"],
+      "features": [
+        "Modern, responsive frontend design",
+        "User-friendly coupon browsing and redemption interface"
+      ],
+      "github": "https://github.com/rishab2245/coupon-frontend",
+      "demo": "https://coupon-frontend-jet.vercel.app/",
+      "image": "/images/project_thumbnale/couponFrontend.jpg"
+    },
+    {
+      "id": "portfolio",
+      "title": "Portfolio Website",
+      "description": "A personal portfolio site to showcase projects, skills, and contact information.",
+      "technologies": ["React", "JavaScript", "CSS", "EmailJS"],
+      "features": [
+        "Includes contact form, project showcases",
+        "Mobile responsive and SEO optimized"
+      ],
+      "github": "https://github.com/rishab2245/personal-portfolio-project",
+      "demo": "https://personal-portfolio-project-phi.vercel.app/",
+      "image": "/images/project_thumbnale/personal-portfolio-project.jpg"
     }
   ]
 }
-

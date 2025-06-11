@@ -25,7 +25,7 @@ const Footer = () => {
               <Github className="h-4 w-4" />
             </Link>
             <Link
-              href="https://linkedin.com/in/Rishab-Chaudhary"
+              href="https://www.linkedin.com/in/rishab-chaudhary-1622b8253"
               className="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors al-folio-text hover:text-gray-900 dark:hover:text-gray-100"
               aria-label="LinkedIn"
             >

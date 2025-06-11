@@ -15,7 +15,7 @@ export default function CVPage() {
             </p>
           </div>
           <Link
-            href="/resume.pdf"
+            href="/Rishab_Resume.pdf"
             className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors self-start"
           >
             <Download className="h-4 w-4" />

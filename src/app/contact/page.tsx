@@ -221,7 +221,7 @@ export default function ContactPage() {
                   onChange={handleInputChange}
                   required
                   rows={6}
-                  className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-800 al-folio-text focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-3 py-2 border border-gray-300 bg-white dark:border-gray-600 rounded-md dark:bg-gray-800 al-folio-text focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="Tell me about your project, idea, or just say hello!"
                 />
               </div>
