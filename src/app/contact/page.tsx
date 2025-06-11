@@ -82,7 +82,7 @@ export default function ContactPage() {
           <div className="space-y-6 mb-8">
             <div className="flex items-start gap-4">
               <div className="p-3 bg-blue-100 dark:bg-blue-900 rounded-lg">
-                <Mail className="h-5 w-5 text-blue-600 dark:text-blue-400" />
+                <Mail className="h-5 w-5 text-blue-600 dark:text-blue-400 " />
               </div>
               <div>
                 <h3 className="font-semibold al-folio-heading mb-1">Email</h3>
@@ -155,7 +155,7 @@ export default function ContactPage() {
                     value={formData.name}
                     onChange={handleInputChange}
                     required
-                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-800 al-folio-text focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="al-folio-input"
                     placeholder="Your name"
                   />
                 </div>
@@ -170,7 +170,7 @@ export default function ContactPage() {
                     value={formData.email}
                     onChange={handleInputChange}
                     required
-                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-800 al-folio-text focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="al-folio-input"
                     placeholder="your.email@example.com"
                   />
                 </div>
@@ -185,7 +185,7 @@ export default function ContactPage() {
                   name="type"
                   value={formData.type}
                   onChange={handleInputChange}
-                  className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-800 al-folio-text focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="al-folio-input"
                 >
                   {contactTypes.map((type) => (
                     <option key={type.value} value={type.value}>
@@ -205,7 +205,7 @@ export default function ContactPage() {
                   name="subject"
                   value={formData.subject}
                   onChange={handleInputChange}
-                  className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-800 al-folio-text focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="al-folio-input"
                   placeholder="What's this about?"
                 />
               </div>
@@ -221,7 +221,7 @@ export default function ContactPage() {
                   onChange={handleInputChange}
                   required
                   rows={6}
-                  className="w-full px-3 py-2 border border-gray-300 bg-white dark:border-gray-600 rounded-md dark:bg-gray-800 al-folio-text focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="al-folio-input resize-none"
                   placeholder="Tell me about your project, idea, or just say hello!"
                 />
               </div>
@@ -250,4 +250,3 @@ export default function ContactPage() {
     </div>
   );
 }
-
