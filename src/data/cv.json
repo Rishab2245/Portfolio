@@ -1,0 +1,68 @@
+{
+  "personal": {
+    "name": "Rishab Chaudhary",
+    "email": "rishabchaudhary2245@gmail.com",
+    "phone": "",
+    "location": "Ghaziabad, U.P., India",
+    "linkedin": "linkedin.com/in/Rishab-Chaudhary",
+    "github": "github.com/rishab2245",
+    "website": ""
+  },
+  "education": [
+    {
+      "institution": "Ajay Kumar Garg Engineering College",
+      "degree": "Bachelor of Technology in Information Technology",
+      "gpa": "8.6/10",
+      "location": "Ghaziabad, U.P., India",
+      "startDate": "November 2022",
+      "endDate": "June 2026"
+    },
+    {
+      "institution": "Durgawati Hemraj Tah Saraswati Vidya Mandir",
+      "degree": "Intermediate",
+      "location": "Ghaziabad, U.P., India",
+      "startDate": "August 2020",
+      "endDate": "July 2021"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Frontend Developer",
+      "company": "Blockchain Research Lab",
+      "location": "Delhi, IN",
+      "startDate": "September 2023",
+      "endDate": "Present",
+      "description": [
+        "Built responsive and visually striking websites utilizing ReactJS, Tailwind CSS, and JavaScript, optimizing the organization's web platform for enhanced functionality and user engagement. Leveraged modern front-end technologies to ensure consistent, high-quality experiences across various devices and screen sizes.",
+        "Designed UI/UX prototypes and implemented them in the frontend using ReactJS and Tailwind CSS. Collaborated with backend developers to seamlessly integrate these components with APIs, optimizing data flow and ensuring consistent performance across the platform."
+      ]
+    },
+    {
+      "title": "Open Source Contributor",
+      "company": "Hacktoberfest-2023",
+      "location": "Remote",
+      "startDate": "October 2023",
+      "endDate": "October 2023",
+      "description": [
+        "Contributed to Hacktoberfest 2023, Successfully completing 4+ pull requests to diverse open-source projects on GitHub, demonstrating strong command of Git version control and GitHub processes.",
+        "Engaged with a global community of developers to address issues, contribute to discussions, and improve project features, enriching my understanding of collaborative software development."
+      ]
+    }
+  ],
+  "skills": {
+    "languages": ["JavaScript", "Java", "Python", "C/C++", "SQL", "HTML/CSS", "TypeScript", "Markdown", "PHP", "Solidity", "Rust"],
+    "frameworks": ["React.js", "Tailwind", "Node.js", "Express.js", "Flask", "Redux", "Next.js"],
+    "databases": ["MongoDB", "MySQL", "PostgreSQL"],
+    "tools": ["Git", "VS Code", "Postman", "Firebase", "Figma", "AWS", "Docker", "Kubernetes", "S3", "EC2", "Webpack", "Vite", "Parcel", "Jest", "JWT", "PM2", "Nginx", "Apache", "RabbitMQ", "GitHub Actions", "JUnit"],
+    "concepts": ["Data Structures", "Cloud Computing", "Cybersecurity", "DevOps", "Blockchain", "UI/UX"]
+  },
+  "certifications": [
+    {
+      "name": "DOEACC/NIELIT 'O' Level Certification",
+      "issuer": "National Institute of Electronics and Information Technology",
+      "grade": "A",
+      "date": "January 2024"
+    }
+  ]
+}
+

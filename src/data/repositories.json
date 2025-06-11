@@ -1,0 +1,29 @@
+{
+  "repositories": [
+    {
+      "name": "rishab2245/valohub",
+      "description": "A full-stack platform showcasing Valorant skins and accounts",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/rishab2245/valohub"
+    },
+    {
+      "name": "rishab2245/netflix-gpt",
+      "description": "Intelligent movie recommendation platform using GPT",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/rishab2245/netflix-gpt"
+    },
+    {
+      "name": "rishab2245/gitfinder",
+      "description": "Dynamic GitHub user details interface",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/rishab2245/gitfinder"
+    }
+  ]
+}
+

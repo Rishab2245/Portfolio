@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "id": "valohub",
+      "title": "ValoHub",
+      "description": "A full-stack platform showcasing Valorant skins and accounts, where users can explore available options and contact the owner directly for more information.",
+      "technologies": ["JavaScript", "HTML/CSS", "MongoDB", "React", "Node.js", "Express", "Git"],
+      "features": [
+        "Developed a full-stack platform showcasing Valorant skins and accounts",
+        "Implemented an admin dashboard allowing secure access for administrators to log in and update site content"
+      ],
+      "github": "https://github.com/rishab2245/valohub",
+      "demo": "",
+      "image": "/images/projects/valohub.jpg"
+    },
+    {
+      "id": "netflix-gpt",
+      "title": "Netflix-GPT",
+      "description": "An intelligent movie recommendation platform that generates personalized movie suggestions based on user-provided prompts, using GPT-powered analysis to tailor recommendations.",
+      "technologies": ["React", "Redux", "Firebase", "Tailwind CSS"],
+      "features": [
+        "Developed an intelligent movie recommendation platform",
+        "Enabled OpenAI API key input for users, empowering them to input unique prompts and receive tailored movie recommendations"
+      ],
+      "github": "https://github.com/rishab2245/netflix-gpt",
+      "demo": "",
+      "image": "/images/projects/netflix-gpt.jpg"
+    },
+    {
+      "id": "gitfinder",
+      "title": "GitFinder",
+      "description": "A dynamic GitHub user details interface utilizing the GitHub API, responsive design principles, and ReactJS.",
+      "technologies": ["React.js", "JavaScript", "CSS3", "REST API"],
+      "features": [
+        "Created a dynamic GitHub user details interface utilizing the GitHub API",
+        "Enhanced proficiency in React and developed strong skills in DOM manipulation and API integration"
+      ],
+      "github": "https://github.com/rishab2245/gitfinder",
+      "demo": "",
+      "image": "/images/projects/gitfinder.jpg"
+    }
+  ]
+}
+
