@@ -7,7 +7,7 @@ export default function Home() {
         <div className="flex-shrink-0">
           <div className="w-48 h-48 lg:w-64 lg:h-64 rounded-lg overflow-hidden al-folio-card">
             <div className="w-full h-full flex items-center justify-center al-folio-text">
-              Profile Photo
+              <img src = "/images/profile.jpg" alt="Rishab Chaudhary" className="w-full h-full object-cover rounded-lg" />
             </div>
           </div>
           
