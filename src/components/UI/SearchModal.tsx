@@ -44,7 +44,8 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
     { id: 'chatapp', title: 'ChatApp', description: 'Real-time chat with Socket.IO', url: '/projects#chatapp', category: 'Projects', icon: Code },
     { id: 'chatapp2.0', title: 'ChatApp 2.0', description: 'Group chat with message statuses', url: '/projects#chatapp2.0', category: 'Projects', icon: Code },
     { id: 'coupon-frontend', title: 'Coupon Frontend', description: 'Coupon code management UI', url: '/projects#coupon-frontend', category: 'Projects', icon: Code },
-    { id: 'portfolio', title: 'Portfolio Website', description: 'Personal portfolio with contact form', url: '/projects#portfolio', category: 'Projects', icon: Code }
+    { id: 'portfolio', title: 'Portfolio Website', description: 'Personal portfolio with contact form', url: '/projects#portfolio', category: 'Projects', icon: Code },
+    { id: 'rentDesigner', title: 'rentDesigner Website', description: 'Landing page for an interior design rental service', url: '/projects#rentDesigner', category: 'Projects', icon: Code },
 
     // Skills
     { id: 'javascript', title: 'JavaScript', description: 'Programming language expertise', url: '/cv#skills', category: 'Skills', icon: Code },
