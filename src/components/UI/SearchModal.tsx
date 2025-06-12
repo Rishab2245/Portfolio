@@ -33,10 +33,19 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
     { id: 'contact', title: 'Contact', description: 'Get in touch with me', url: '/contact', category: 'Pages', icon: Mail },
     
     // Projects
+    // Projects
     { id: 'valohub', title: 'ValoHub', description: 'Full-stack Valorant skins platform', url: '/projects#valohub', category: 'Projects', icon: Code },
     { id: 'netflix-gpt', title: 'Netflix-GPT', description: 'AI-powered movie recommendations', url: '/projects#netflix-gpt', category: 'Projects', icon: Code },
     { id: 'gitfinder', title: 'GitFinder', description: 'GitHub user search interface', url: '/projects#gitfinder', category: 'Projects', icon: Code },
-    
+    { id: 'movieapp', title: 'MovieApp', description: 'Movie search and listing app', url: '/projects#movieapp', category: 'Projects', icon: Code },
+    { id: 'obys-clone', title: 'Obys Clone', description: 'Pixel-perfect web clone with GSAP', url: '/projects#obys-clone', category: 'Projects', icon: Code },
+    { id: 'refokus-clone', title: 'Refokus Clone', description: 'Animated React agency site clone', url: '/projects#refokus-clone', category: 'Projects', icon: Code },
+    { id: 'calendar-app', title: 'Simple Calendar', description: 'Event calendar with views', url: '/projects#calendar-app', category: 'Projects', icon: Code },
+    { id: 'chatapp', title: 'ChatApp', description: 'Real-time chat with Socket.IO', url: '/projects#chatapp', category: 'Projects', icon: Code },
+    { id: 'chatapp2.0', title: 'ChatApp 2.0', description: 'Group chat with message statuses', url: '/projects#chatapp2.0', category: 'Projects', icon: Code },
+    { id: 'coupon-frontend', title: 'Coupon Frontend', description: 'Coupon code management UI', url: '/projects#coupon-frontend', category: 'Projects', icon: Code },
+    { id: 'portfolio', title: 'Portfolio Website', description: 'Personal portfolio with contact form', url: '/projects#portfolio', category: 'Projects', icon: Code }
+
     // Skills
     { id: 'javascript', title: 'JavaScript', description: 'Programming language expertise', url: '/cv#skills', category: 'Skills', icon: Code },
     { id: 'react', title: 'React', description: 'Frontend framework experience', url: '/cv#skills', category: 'Skills', icon: Code },
