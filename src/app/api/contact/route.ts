@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import clientPromise from '@/lib/mongodb';
+import { generateEmailTemplate } from '@/lib/emailTemplate';
 
 export async function POST(request: NextRequest) {
   try {
@@ -45,20 +46,11 @@ export async function POST(request: NextRequest) {
       });
 
       const mailOptions = {
-        from: process.env.SMTP_FROM || process.env.SMTP_USER,
-        to: process.env.CONTACT_EMAIL || 'rishabchaudhary2245@gmail.com',
-        subject: `Portfolio Contact: ${subject || 'New Message'}`,
-        html: `
-          <h3>New Contact Form Submission</h3>
-          <p><strong>Name:</strong> ${name}</p>
-          <p><strong>Email:</strong> ${email}</p>
-          <p><strong>Type:</strong> ${type || 'general'}</p>
-          <p><strong>Subject:</strong> ${subject || 'Contact Form Submission'}</p>
-          <p><strong>Message:</strong></p>
-          <p>${message.replace(/\n/g, '<br>')}</p>
-          <p><strong>Submitted at:</strong> ${new Date().toLocaleString()}</p>
-        `,
-      };
+  from: process.env.SMTP_FROM || process.env.SMTP_USER,
+  to: process.env.CONTACT_EMAIL || 'rishabchaudhary2245@gmail.com',
+  subject: `Portfolio Contact: ${subject || 'New Message'}`,
+  html: generateEmailTemplate({ name, email, subject, message, type }),
+};
 
       try {
         await transporter.sendMail(mailOptions);
